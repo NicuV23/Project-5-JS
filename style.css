@@ -1,0 +1,14 @@
+/* This is the style*/
+
+#input-1 {
+  background-color: ghostwhite;
+}
+
+#input-2 {
+  background-color: ghostwhite;
+}
+
+.h {
+  display: flex;
+  gap: 90px;
+}
