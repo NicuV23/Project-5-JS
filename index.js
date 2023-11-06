@@ -1,10 +1,10 @@
-function showtheword() {
-    const boxone = document.getElementById('input-1');
-    const boxtwo = document.getElementById('input-2');
+function showTheWord() {
+    const boxOne = document.getElementById('input-1');
+    const boxTwo = document.getElementById('input-2');
     const displayArea = document.getElementById('displayArea');
 
-    const word = boxone.value;
-    const definition = boxtwo.value;
+    const word = boxOne.value;
+    const definition = boxTwo.value;
 
     if (word && definition) {
         const newEntry = document.createElement('div');
@@ -12,8 +12,8 @@ function showtheword() {
         displayArea.appendChild(newEntry);
 
         // Clear the input 
-        boxone.value = '';
-        boxtwo.value = '';
+        boxOne.value = '';
+        boxTwo.value = '';
     }
 }
 
